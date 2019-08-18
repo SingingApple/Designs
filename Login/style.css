@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(bg.jpeg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+} 
+.login-box{
+	width: 290px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.login-box h1{
+	float:left;
+	font-size: 40px;
+	border-bottom: 4px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0 
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	padding: 8px 0;
+	margin:8px 0;
+}
+.textbox i {
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+	border:none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+}
+.btn{
+	width: 100%;
+	background: none;
+	outline: none;
+	border: 2px solid #ccc;
+	cursor: pointer;
+	padding: 5px;
+	color: white;
+	font-size: 19px;
+	margin: 13px 0;
+}
